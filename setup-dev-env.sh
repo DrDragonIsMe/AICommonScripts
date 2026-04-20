@@ -139,9 +139,9 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io
 sudo tee /etc/docker/daemon.json >/dev/null <<EOF
 {
   "registry-mirrors": [
-    "https://docker.mirrors.ustc.edu.cn",
-    "https://hub-mirror.c.163.com",
-    "https://mirror.baidubce.com"
+    "https://docker.m.daocloud.io",
+    "https://docker.1panel.live",
+    "https://docker.mirrors.sjtug.sjtu.edu.cn"
   ]
 }
 EOF
